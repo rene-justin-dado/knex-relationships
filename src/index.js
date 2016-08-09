@@ -2,7 +2,7 @@ var wombleList = require('./templates/womble-list.hbs')
 var headerTemplate = require('./templates/header.hbs')
 var footerTemplate = require('./templates/footer.hbs')
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   var headerElement = document.getElementById('header')
   var headerHTML = headerTemplate({
     title: 'Wombles',
