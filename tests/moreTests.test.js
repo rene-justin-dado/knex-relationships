@@ -1,6 +1,6 @@
 var test = require('tape')
 
-test('Foo', function (t) {
+test('Foo', (t) => {
   t.pass()
   t.end()
 })
